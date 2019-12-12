@@ -1,3 +1,5 @@
+print("Writing to a file")
+
 import json
 with open("mywrittenfile.json", "w") as output:
     obj = {}
