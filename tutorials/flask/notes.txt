@@ -1,0 +1,12 @@
+Flask is can be used for web apis.
+from flask import flask
+
+CMD
+=====
+Install flask with pip install flask
+
+set FLASK_DEBUG=1
+set FLASK_APP=[appfilename.py]
+flask run (default port 5000 and localhost)
+flask run --port=3000
+flask run --host=0.0.0.0
