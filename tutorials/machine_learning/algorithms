@@ -1,0 +1,19 @@
+Naive Bayes
+============
+Determines how other factors collerate to the evaluation with equal weight.
+This allows for better performance and a smaller data set.
+E.G Blood Pressure, BMI, No. Pregnancies are given equal weight when collerating with Diabetes(true/false)
+Simple
+Fast - up to 100x faster
+Stable to data changes
+
+Logistic Regression
+=============
+Returns a binary result, weighing each relationship as either true or false.
+
+Decision Tree
+============
+Binary tree of yes or no questions
+Node contains decision.
+Requires a lot of data to cater for permutations and splits.
+E.G Is Male ? Yes  ===> Is Male Over 25 ? ===> Yes ...etc ...etc like a tree.

@@ -1,5 +1,9 @@
 python - scripting language
 pip - python's package manager tool. Used for installing, uninstalling, updating and managing dependencies and package groups
 pypi - python package repository (Python Package Index) https://pypi.org
-ipython - the Python shell, used to be called Jupyter
+ipython - the Python shell
 REPL - "Rep-UL" Read Eval Print Loop it's basically a command-line IDE for running python code directly. Can be brought up with "py" or "python3"
+numpy - scientific computing library, N-dim object support
+pandas - data frames library
+matplotlib - 2d plotting library
+anaconda - a platform for ML and data science with Python

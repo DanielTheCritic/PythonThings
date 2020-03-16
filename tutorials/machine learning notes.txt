@@ -1,0 +1,8 @@
+Machine Learning Workflow
+=======================
+
+1. Asking the right question
+2. Preparing Data
+3. Selecting the algorithm
+4. Training the model
+5. Testing the model

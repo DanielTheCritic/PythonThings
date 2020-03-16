@@ -1,0 +1,11 @@
+intall ipython with 'pip install ipython'
+launch ipython with 'ipython'
+
+%load_ext autoreload -> this command loads the 'autoreload' extension.
+%autoreload 2 -> this commands sets up autoreload to reload any file changes.
+
+With ipython you can import just methods of a script.
+E.G
+'from testscript import hello'
+
+
