@@ -21,3 +21,6 @@ for n in names:
     if n == "Sasuke":
         continue
     print("FOR LOOP WITH CONTINUE: " + n)
+
+for i, v in enumerate(names):
+    print(f"ENUMERATE LOOP WITH INDEX AND VALUE TUPLE: {i}, {v}")
