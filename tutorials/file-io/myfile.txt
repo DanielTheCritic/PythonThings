@@ -1,0 +1,4 @@
+This is the content of my new text file.
+This is another line.
+This is another line
+This is yet another line

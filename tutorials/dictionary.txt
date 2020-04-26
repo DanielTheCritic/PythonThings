@@ -7,3 +7,4 @@ numpy - scientific computing library, N-dim object support
 pandas - data frames library
 matplotlib - 2d plotting library
 anaconda - a platform for ML and data science with Python
+duck-typing - If it quacks like a duck, swims like a duck, it is a duck. Objects can behave in the same way without being tightly coupled.

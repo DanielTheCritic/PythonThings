@@ -47,6 +47,10 @@ if x == 5 and y == 3:
 if x == 5 or y == 3:
     print("x == 5 or y == 3")
 
+# Not clause
+if not x == 3:
+    print("not x == 3")
+
 # Elif clause
 if x == 6:
     print("x == 6")

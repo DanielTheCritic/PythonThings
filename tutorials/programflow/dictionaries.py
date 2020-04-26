@@ -6,6 +6,13 @@ print(f'New dictionary example1: {example1}')
 example2 = dict(a = 'Apple', b = 'Banana', c = 'Carrot')
 print(f'New dictionary example2: {example2}')
 
+example3letters = ["A", "B", "C", "D"]
+example3 = {letter: None for letter in example3letters}
+print(example3)
+
+example4 = {"Daniel": "Sansom","Evan": "Barkley"}
+print(example4)
+
 # Adding value
 example1['v'] = "."
 print(f'With added value: {example1}')
