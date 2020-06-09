@@ -17,8 +17,19 @@ def func3(val):
 
 print(func3("test"))
 
-# Function like params in C#
+# Function like params in C# called extended arguments syntax or "star args". This is passed in as a Tuple
 def func4(*numbers):
-    print(numbers)
+    print(type(numbers))
+    for i in iter(numbers):
+        print(i)
 
 func4(1,4,6,19)
+
+# Function like params in C# but with keywords call "keyword args". Key/value pairs are passed into the method
+# to form a dictionary
+def func5(name, **kwargs):
+    print(name)
+    print(type(kwargs))
+    print(kwargs)
+
+func5("hello", value="world", counter=150, testcount=2)
