@@ -12,6 +12,10 @@ print ("Subtract: " + str(x - y))
 print ("Multiply: " + str(x * y))
 # Division
 print ("Divide: " + str(x / y))
+# Division and round off
+print ("Divide: " + str(x // y))
+# Exponent
+print ("Exponent: " + str(x ** y))
 # Modulus
 print ("Modulus: " + str(x % y))
 
